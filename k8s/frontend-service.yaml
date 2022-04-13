@@ -6,6 +6,6 @@ spec:
   selector:
     app: udagram-frontend
   ports:
-    - port: 8100
+    - port: 80
       targetPort: 80
   type: LoadBalancer

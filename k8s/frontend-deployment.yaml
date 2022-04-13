@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: udagram-frontend
-          image: gbengaps/udagram-frontend:v1
+          image: gbengaps/udagram-frontend:v6
           resources:
             requests:
               memory: '64Mi'
