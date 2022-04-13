@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  #non-confidential info
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: microservice.cfgjbutdy5q6.us-east-1.rds.amazonaws.com
